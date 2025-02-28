@@ -88,6 +88,7 @@ display: inline-block;
     text-decoration:wavy;
     transform: translate(-50%,-50%);
     text-shadow: 19px 12px 1px rgb(12, 10, 138);
+
 }.footer p{
     color: aliceblue;
     text-align: center;
@@ -328,4 +329,7 @@ text-align: center;
     color:rgb(10, 244, 100);
  }.nav ul li .location-details{
     color:rgb(10, 244, 100);
- }
+ }.site-link:hover { 
+color: red; 
+text-decoration: underline; 
+} 
