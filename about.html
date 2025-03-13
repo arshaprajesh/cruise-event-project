@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+       <!--<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+      />-->
+        <link href="style.css" rel="stylesheet" >
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-container">
+          <a class="nav-logo">ᏗᏒᏖ ᎶᏗᏝᏝᏋᏒᎩ🎨</a>
+        </div>
+       
+        <ul class="nav navbar-nav">
+          <li>
+            <a  href="welcome.html">Home</a>
+          </li>
+          <li >
+            <a  href="about.html">About </a>
+          </li>
+          <li >
+            <a  href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="index-button" id="index-login" onclick="logOut()"  type="submit">Logout</button>
+    </div>
+ 
+      
+  </nav>
+  <div class="container">
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="https://images.pexels.com/photos/906457/pexels-photo-906457.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Card image cap">
+      <div class="card-body">
+        <h1 class="card-title">James Serra</h1>
+        <p class="card-text">Specialized in conseptual photography and love to take photos with creative passion</p>
+        <a href="https://www.pexels.com/search/photography/" class="btn btn-primary">For more photos</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.pexels.com/photos/3779014/pexels-photo-3779014.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Card image cap">
+      <div class="card-body">
+        <h1 class="card-title">Jeff Brown</h1>
+        <p class="card-text">specialized in acrylic painting,oil painting</p>
+        <a href="https://www.artfulhome.com/navigate/paintings-drawings?srsltid=AfmBOorfDQFPTs7p0Uc5P2VcdEdSk6Y6UEFFK_GsX43235Wtxok7Gxfr" class="btn btn-primary">for more pictures</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.pexels.com/photos/3778334/pexels-photo-3778334.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Card image cap">
+      <div class="card-body">
+        <div class="card-body">
+          <h1 class="card-title">Graham</h1>
+          <p class="card-text">specialized in 3 diamentional sculpture art</p>
+          <a href="https://finestsculpture.com/collections/stainless-steel-sculpture?gad_source=1&gclid=Cj0KCQjwm7q-BhDRARIsACD6-fXVBraeC7REDIR6q8kbSrxa2gF5QkvCy5MnfyowrOG-a-H0_zpZ8PUaAg_lEALw_wcB" class="btn btn-primary">more sculptures</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+<div class="container" id="carouselId" >
+        <div class="carousel-item-active">
+            <ul class="slides">
+                <input type="radio" name="radio-buttons" id="img-1" checked />
+                <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1200" class="img-fluid rounded-3" style="width: 100%;" >
+                        <div class="carousel-caption d-none d-md-block" style="font-size: 30px;">
+            
+                          <h2>30$</h>
+                            <br>
+                            <button  id="cart-add" type="button"  class="btn btn-primary ">
+                              <span id="buttonSpan">Add Cart</span>
+                            </button>
+                        </div>
+                      </div>
+                    <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-2" class="next-slide">
+                          <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-2" />
+                <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="https://images.pexels.com/photos/14702749/pexels-photo-14702749.jpeg?auto=compress&cs=tinysrgb&w=1200" class="img-fluid rounded-3" style="width: 100%;">
+                        <div class="carousel-caption d-none d-md-block" style="font-size: 50px;">
+                          
+                          <h2>40$</h>
+                            <br>
+                            <button  id="cart-add" type="button"   class="btn btn-primary ">
+                              <span id="buttonSpan">Add Cart</span>
+                            </button>
+                            <br>
+                          </div> 
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-3" class="next-slide">
+                            <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-3" />
+                <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="https://images.pexels.com/photos/4272618/pexels-photo-4272618.jpeg?auto=compress&cs=tinysrgb&w=1200" class="img-fluid rounded-3" style="width: 100%;">
+                        <div class="carousel-caption d-none d-md-block" style="font-size: 50px;">
+                         
+                          <h2>80$</h>
+                            <br>
+                          
+                            <button  id="cart-add" type="button"  class="btn btn-primary ">
+                              <span id="buttonSpan">Add Cart</span>
+                            </button>
+                        </div> 
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-1" class="next-slide">
+                            <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+    <br>
+    <div>
+      <h1 class="cart-heading">爪ㄚ 匚卂尺ㄒ</h1>
+    </div>
+    <section class="h-100 gradient-custom">
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center my-4">
+          <div class="col-md-8">
+            <div class="card mb-4">
+              <div class="card-header py-3">
+                <h5 class="mb-0">Cart - 2 items</h5>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                    <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                      <img src="https://images.pexels.com/photos/4272618/pexels-photo-4272618.jpeg?auto=compress&cs=tinysrgb&w=1200" class="img-fluid rounded-3" style="width: 100%;"
+                        class="w-100" alt="Blue Jeans Jacket" />
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                      </a>
+                    </div>
+                    
+                  </div>
+    
+                  <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                    
+                    <p><strong>sculpture</strong></p>
+                    <p>craft</p>
+                    <p>Size:14*10</p>
+                    
+                   
+                  </div>
+    
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                   
+                   
+                      <div data-mdb-input-init class="form-outline">
+                        <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                        <label class="form-label" for="form1">Quantity</label>
+                      </div>
+    
+                    <p class="text-start text-md-center" id="cost1">
+                      <strong>80</strong>
+                    </p>
+                    <button  type="button" id="itemTotal1" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" onclick="itemTotalPrice1()">
+                     0
+                     </button>
+                  </div>
+                </div>
+                
+               
+    
+                <hr class="my-4" />
+    
+             
+                <div class="row">
+                  <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                   
+                    <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                      <img src="https://images.pexels.com/photos/14702749/pexels-photo-14702749.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        class="w-100" />
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                      </a>
+                    </div>
+                    
+                  </div>
+    
+                  <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                   
+                    <p><strong>landscape</strong></p>
+                    <p>painting</p>
+                    <p>Size:14*10</p>
+                  </div>
+    
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                   
+                      <div data-mdb-input-init class="form-outline">
+                        <input id="form2" min="0" name="quantity" value="1" type="number" class="form-control" />
+                        <label class="form-label" for="form1">Quantity</label>
+                      </div>
+    
+                    <p class="text-start text-md-center" id="cost2">
+                      <strong>30</strong>
+                    </p>
+                    <button  type="button" id="itemTotal2" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" onclick="itemTotalPrice2()">
+                     0
+                     </button>
+                   
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body">
+                <p><strong>Expected shipping delivery</strong></p>
+                <p class="mb-0">12.3.2025 - 14.4.2025</p>
+              </div>
+            </div>
+            <div class="card mb-4 mb-lg-0">
+              <div class="card-body">
+                <p><strong>We accept</strong></p>
+                <img class="me-2" width="45px"
+                  src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                  alt="Visa" />
+                <img class="me-2" width="45px"
+                  src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                  alt="American Express" />
+                <img class="me-2" width="45px"
+                  src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                  alt="Mastercard" />
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-header py-3">
+                <h5 class="mb-0">Summary</h5>
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                
+                  <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                    Shipping
+                    <span id="shipping">7</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                    <div>
+                      <strong>Total amount</strong>
+                      <strong>
+                        <p class="mb-0">(including TAX)</p>
+                      </strong>
+                    </div>
+                    <span id="total"><strong></strong></span>
+                  </li>
+                </ul>
+    
+                <button  type="button" id="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" onclick="totalPrice()">
+                 Total Amount
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                      </form>
+                  </div>
+
+                </div>
+              </div>
+      
+            </div>
+            
+         
+      
+            <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+         <!-- <script src="assets/bootstrap/bootstrap.min.js"></script>-->
+          <script src="app.js"></script>
+    </body>
+</html>
+<!--<div class="card">
+    <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Add to Cart</button></p>
+  </div>

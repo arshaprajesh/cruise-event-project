@@ -1,45 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>event center-welcome</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="body">
-    <header class="header">
-      <a href="index.html"class="logo">ℂℝ𝕌𝕀𝕊𝔼 𝔼𝕧𝕖𝕟𝕥 𝕔𝕖𝕟𝕥𝕖𝕣 🚢</a>
-      <img class="logo-sign" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCr0OkAjqqQ8YEOTrIzsnSZVFnCP3fpNb8zg&s">
-            <nav class="nav">
-                <ul>
-                 <li><a href="index.html" class="home-details">Home</a></li>
-                    <li><a href="event.html">Event</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li ><a href="contact.html" >Contact</a></li>
-                </ul>
-            </nav>
-    </header>
-   
-    <main >
-        <div class="hero-container">
-       <div class="welcome">
-        <h2>𝔚𝔢𝔩𝔠𝔬𝔪𝔢 𝔗𝔬 ℜ𝔬𝔶𝔞𝔩 ℭ𝔞𝔯𝔦𝔟𝔟𝔢𝔞𝔫</h2>  <!--font gernerator-->
-            <img class="image" src="https://images.pexels.com/photos/24283662/pexels-photo-24283662/free-photo-of-deck-of-the-symphony-of-the-seas-cruise-ship-at-night.jpeg?auto=compress&cs=tinysrgb&w=1200">
-            <p>The white-sand beaches of Eastern Caribbean islands await you! Eastern Caribbean cruise itineraries can include ports of call in florida, St Martin, Turks & Caicos and The Bahamas.A Caribbean cruise for an event can include activities like fireworks,music party, scuba diving and international food festival. Cruises can also offer a variety of venues, including theaters, lounges, and outdoor spaces. </p>
-      <br>
-             <p>05 JULY 2025 - 15 AUGUEST 2025</p>
-            <h4>contact number: 📞(344)-567-4567</h4>
-            <a href="event.html" class="event-link">For event details</a>
-        </div>
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <!--<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />-->
+        <link href="style.css" rel="stylesheet" >
+    </head>
+    <body >
+
+    <h2 class="login-head">Login</h2>
+    <form class="login-form" id="loginForm"  method="post">
+    <div class="imgcontainer">
+        <img src="https://img.freepik.com/free-vector/sign-page-abstract-concept-illustration-enter-application-mobile-screen-user-login-form-website-page-interface-ui-new-profile-registration-email-account_335657-936.jpg?ga=GA1.1.790246195.1738885204&semt=ais_hybrid" alt="Avatar" class="avatar">
     </div>
-    </main>
-    
-<br>
-<br>
-    <footer class="footer">
-        <p>@2025 cruise event center</p>
-        <a href=" https://www.royalcaribbean.com/" class="site-link">🔍 visit @ royal caribbean</a>
-          </footer>
+
+    <div class="login-container">
+
+        <label for="uname"><b>Username</b></label>
+        <input class="login-input" id="userName" type="email" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input class="login-input" id="password" type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button class="login-button" id="logButton" onclick="loginDetails()"  type="submit">Login</button>
+        <label>
+        <input class="login-input" type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="login-container" style="background-color:#f1f1f1">
+        <button   id="cancel-button" onclick="cancelDetails()" type="submit" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="assets/bootstrap/bootstrap.min.js"></script>-->
+     <script src="app.js"></script>
 </body>
 </html>
+   
